@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "MONO" 1;
+    background-color: rgb(57, 57, 123);
+    color: white;
+}
+
+nav {
+    background-color: darkslategray;
+    color: white;    
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    background-color: darkslategray;
+    border-top: 1px solid black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+footer.contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.splash {
+    text-align: center;
+    color: white;
+    background-image: url('../images/background_gif.webp');
+    background-size: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.sono-ex {
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MONO" 1;
+  }
+
+  h1 {
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "MONO" 1;
+    color: #FFFFFF;
+    font-size: 50px;
+  }
+
+  img.pfp {
+    border: 2px groove white;
+    border-radius: 50%;
+  }
+
+  p.nav {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+  }
+
+  hr {
+    margin-top: 0;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  }
+
+  h2.headers {
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "MONO" 1;
+    color: #FFFFFF;
+    font-size: 22px;
+  }
+
+  section.center {
+    text-align: center;
+  }
+
+  section.spacing {
+    margin: 100px 3px 0px 3px;
+  }
+
+  ul.no-bullets {
+    list-style-type: none;
+  }
+
+  p.edu {
+    font-size: 15px;
+  }
+
+  dl.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  dl dt {
+    font-weight: bold;
+    grid-column: 1 / 2;
+  }
+
+  dl dd {
+    margin: 0;
+    grid-column: 2 / 3;
+  }
+  
+  dl dt a { 
+    line-height: 63px;
+    color: lightblue;
+    transition: .5s;
+  }
+
+  dl dt a:hover {
+    color: rgb(144, 226, 133);
+    text-shadow: 0 0 5px rgb(144, 226, 133);
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 30px;
+  }
+
+  .card {
+    padding-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: #6771df;
+    padding-right: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  .one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    width: 50%;
+    gap: 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px slategray;
+    border-radius: 10px;
+  }
+
+  input[type="submit"] {
+    transition: 0.5s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(144, 226, 133);
+    cursor: pointer;
+  }
+
+  img {
+    width: 150px;
+    height: 100%;
+  }
+
+  .img3 {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 60px;
+  }
